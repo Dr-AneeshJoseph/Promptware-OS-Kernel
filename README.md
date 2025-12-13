@@ -22,6 +22,8 @@ Select the kernel that fits your mission:
 | **The Artist** | **[`NEXUS_v1.0.md`](Promptware_Library/NEXUS_v1.0.md)** | **Narrative Kernel** | Coherence, Immersion, Lore | Fiction, world-building, screenwriting. |
 | **The Teacher** | **[`SOCRATES_v1.0.md`](Promptware_Library/SOCRATES_v1.0.md)** | **Pedagogical Kernel** | Maieutics, Scaffolding | Tutoring, learning new skills, debugging. |
 | **The Juggernaut** | **[`SLEDGEHAMMER_v1.0.md`](Promptware_Library/SLEDGEHAMMER_v1.0.md)** | **Extreme Verification Kernel** | Rigor, Overkill, Zero-Hallucination | High-stakes verification, debunking, stress-testing. |
+
+| **The Dreamer** | **[`LOOM_v1.0.md`](Promptware_Library/LOOM_v1.0.md)** | **Noumenal Loom Kernel** | Creativity, Metaphor, Game | **A Survival Game.** Keep the dream alive or die trying. |
 ## 📂 Repository Contents
 
 * **`Promptware_Library/`**: Contains the 5 installable kernel files.
