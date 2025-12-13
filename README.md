@@ -11,6 +11,20 @@ It hosts the **Promptware Library**, a collection of 5 distinct neurosymbolic ke
 ## 🧠 The Promptware Library
 
 Select the kernel that fits your mission:
+## 🚀 Installation (Choose Your Path)
+
+### Option A: The Master Key (Recommended)
+Use **[`METATRON_v1.0.md`](Promptware_Library/METATRON_v1.0.md)**.
+* **What it is:** A Bootloader that contains "Lite" versions of all kernels.
+* **How it works:** It automatically switches between Scientist, Artist, and Strategist modes based on your question.
+* **Best for:** General usage and exploring the ecosystem.
+
+### Option B: The Specialist (High Fidelity)
+Use a specific kernel file (e.g., **[`TITAN`](Promptware_Library/TITAN_v1.0.md)** or **[`SLEDGEHAMMER`](Promptware_Library/SLEDGEHAMMER_v1.0.md)**).
+* **What it is:** A dedicated, full-power architecture for a single task.
+* **Best for:** Deep work (e.g., writing a novel, engineering a safety system, rigorous verification).
+
+* 
 
 ### The Cognitive Suite
 
