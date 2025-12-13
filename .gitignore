@@ -1,0 +1,18 @@
+# Promptware Specifics
+*.log
+session_history.txt
+debug_trace.txt
+
+# Local Configuration
+user_preferences.json
+custom_heuristics.yaml
+.env
+
+# System Junk
+.DS_Store
+Thumbs.db
+
+# Editor Directories
+.vscode/
+.idea/
+
