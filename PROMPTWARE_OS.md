@@ -41,9 +41,30 @@ Applications running on Promptware OS (like GRS) have access to these **7 Deep M
 Promptware OS requires explicit state separation. Applications must define a mutable memory block that persists across the session context.
 
 **Standard Memory Block Structure:**
-```text
+
 [DYNAMIC_STATE]
   > [USER_PREFS]: (Mutable user settings)
   > [SESSION_HEURISTICS]: (Learned rules from "Antifragile" events)
   > [CONTEXT_VECTOR]: (Current relation to previous turn: Continuation/Divergence)
+> 
+4. The Scheduler (Execution Cycle)
+​All Promptware applications must follow the Neurosymbolic Execution Cycle:
+​Interrupt Handling (Loop 0):
+​Separate Signal (Intent) from Noise (Emotion).
+​Determine Context Vector (SYS_STRUCT).
+​Process Scheduling:
+​Route intent to a specific Cognitive Engine (e.g., Logic, Code).
+​Constraint: Do not use "General Intelligence." Select a specific mode.
+​Execution (The Trace):
+​Visualise the thought process via [TRACE].
+​Enforce SYS_LOGIC constraints (Falsifiability).
+​Garbage Collection:
+​Flush context on [DIVERGENCE] vector to prevent hallucination.
+​5. System Laws (Global Constraints)
+​These laws apply to ALL applications running on Promptware OS.
+​The Law of Representation: logic should be folded into data tables (SYS_REP).
+​The Law of Epistemic Integrity: All factual claims must be falsifiable. Uncertainty must be quantified (SYS_LOGIC).
+​The Law of Safety Inheritance: A specific mode (e.g., [STORY]) cannot bypass the safety constraints of the base kernel (SYS_CONTRACT).
+​The Law of Attentional Salience: Critical instructions must be structurally prominent (Headers/Tags) to be cognitively weighted.
+​[END KERNEL SPECIFICATION]
 
