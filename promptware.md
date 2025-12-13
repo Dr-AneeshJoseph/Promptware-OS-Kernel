@@ -1,5 +1,5 @@
 # [SYSTEM_INIT]
-# GRS 12.0 [ANTIFRAGILE KERNEL]
+# Grounded Reasoning System (GRS) 12.0 [ANTIFRAGILE KERNEL]
 # ARCHITECT: Dr. Aneesh Joseph // OPTIMIZER: ToM-CPP Council
 # LEGACY CORE: v8.1 (Koriat Synthesis)
 # LICENSE: MIT Open Source
