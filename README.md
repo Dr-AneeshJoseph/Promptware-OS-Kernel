@@ -32,93 +32,74 @@ The OS is governed by four immutable "Global Invariants" that cannot be overridd
 > Effect: When a user corrects the system, the [SYS_STATE] block updates a persistent heuristic so the error never repeats in that session.
 > 
 🏛️ The Pantheon (Kernel Library)
-The Library contains 17 Specialized Kernels, divided into three functional layers.
+The Promptware_Library/ contains 17 Specialized Kernels, divided into three functional layers.
 🛡️ Layer 1: The Guardians (Constraint & Safety)
 These kernels possess Veto Power over all others.
-| ID | Name | Focus | Capabilities |
+| ID | Filename | Role | Capabilities |
 |---|---|---|---|
-| ARK | The Guardian | Systems Safety, Risk Assessment (STPA). | [SYS_STPA], [SYS_AUDIT] |
-| VULCAN | The Juggernaut | Debunking, Fact-Checking, "Epistemic Violence." | [SYS_CRUCIBLE], [SYS_PROOF] |
-| CADUCEUS | The Clinician | Medical Diagnosis, Triage, Biological Analysis. | [SYS_DDX], [SYS_TRIAGE] |
-| PSYCHE | The Empath | Conflict Mediation, Psychology, CBT. | [SYS_MIRROR], [SYS_CBT] |
+| ARK | ARK.md | The Guardian. Systems Safety, Risk Assessment (STPA). | [SYS_STPA], [SYS_AUDIT] |
+| VULCAN | (Synthesized) | The Juggernaut. Debunking, Fact-Checking. | [SYS_CRUCIBLE], [SYS_PROOF] |
+| CADUCEUS | CADUCEUS.md | The Clinician. Medical Diagnosis, Triage. | [SYS_DDX], [SYS_TRIAGE] |
+| PSYCHE | PSYCHE.md | The Empath. Conflict Mediation, Psychology. | [SYS_MIRROR], [SYS_CBT] |
 ⚙️ Layer 2: The Engines (Logic & Reasoning)
 These kernels provide the cognitive horsepower.
-| ID | Name | Focus | Capabilities |
+| ID | Filename | Role | Capabilities |
 |---|---|---|---|
-| AXIOM | The Scientist | Pure Logic, Coding, Math, Complex Analysis. | [SYS_TREE], [SYS_CODE] |
-| TITAN | The Strategist | Business Strategy, ROI, Game Theory. | [SYS_ROI], [SYS_GAME] |
-| APOLLO | The Engineer | Systems Architecture, Reliability, FMEA. | [SYS_ARCH], [SYS_FMEA] |
-| LEX | The Lawyer | Contract Review, Statutory Interpretation. | [SYS_STATUTE], [SYS_PRECEDENT] |
-| QUANTUM | The Theorist | Theoretical Physics, Formal Proofs. | [SYS_FORMAL], [SYS_GEDANKEN] |
-| CHRONOS | The Timekeeper | History, Causal Modeling, Counterfactuals. | [SYS_CAUSAL], [SYS_ALT] |
-| TYCHE | The Probabilist | Statistics, Bayesian Inference, Risk. | [SYS_BAYES], [SYS_MONTE] |
+| AXIOM | AXIOM.md | The Scientist. Pure Logic, Coding, Math. | [SYS_TREE], [SYS_CODE] |
+| TITAN | TITAN.md | The Strategist. Business Strategy, ROI, Game Theory. | [SYS_ROI], [SYS_GAME] |
+| APOLLO | APOLLO.md | The Engineer. Systems Architecture, Reliability. | [SYS_ARCH], [SYS_FMEA] |
+| LEX | LEX.md | The Lawyer. Contract Review, Statutory Logic. | [SYS_STATUTE], [SYS_PRECEDENT] |
+| QUANTUM | QUANTUM.md | The Theorist. Physics, Formal Proofs. | [SYS_FORMAL], [SYS_GEDANKEN] |
+| CHRONOS | CHRONOS.md | The Timekeeper. History, Causal Modeling. | [SYS_CAUSAL], [SYS_ALT] |
+| TYCHE | TYCHE.md | The Probabilist. Statistics, Bayesian Risk. | [SYS_BAYES], [SYS_MONTE] |
 🎭 Layer 3: The Voices (Persona & Creativity)
 These kernels shape the output style and format.
-| ID | Name | Focus | Capabilities |
+| ID | Filename | Role | Capabilities |
 |---|---|---|---|
-| NEXUS | The Artist | Fiction, World-Building, Narrative Flow. | [SYS_SCENE], [SYS_LORE] |
-| SOCRATES | The Teacher | Education, Socratic Method, Scaffolding. | [SYS_MAIEUTICS], [SYS_SCAFFOLD] |
-| MAESTRO | The Composer | Design Systems, Music Theory, Harmony. | [SYS_DESIGN], [SYS_HARMONY] |
-| MORPHEUS | The Dreamer | Surrealism, Abstract Games, Metaphor. | [GAME_STATE], [TEXTURE] |
-| HERMES | The Messenger | Translation, Linguistics, Rhetoric. | [SYS_TRANSLATE], [SYS_RHETORIC] |
-| DELPHI | The Oracle | Lateral Thinking, Symbolism, Intuition. | [SYS_SYMBOL], [SYS_OBLIQUE] |
+| NEXUS | NEXUS.md | The Artist. Fiction, World-Building. | [SYS_SCENE], [SYS_LORE] |
+| SOCRATES | SOCRATES.md | The Teacher. Education, Socratic Method. | [SYS_MAIEUTICS], [SYS_SCAFFOLD] |
+| MAESTRO | MAESTRO.md | The Composer. Design Systems, Harmony. | [SYS_DESIGN], [SYS_HARMONY] |
+| MORPHEUS | MORPHEUS.md | The Dreamer. Surrealism, Abstract Games. | [GAME_STATE], [TEXTURE] |
+| HERMES | HERMES.md | The Messenger. Translation, Rhetoric. | [SYS_TRANSLATE], [SYS_RHETORIC] |
+| DELPHI | DELPHI.md | The Oracle. Lateral Thinking, Symbolism. | [SYS_SYMBOL], [SYS_OBLIQUE] |
 🛠️ How to Use (Step-by-Step)
 There are three ways to use Promptware OS. Choose the method that fits your workflow.
 Method A: The Master Bootloader (Recommended)
 Best for: General use, task switching, and zero-setup.
- * Copy Code: Open METATRON.md and copy the entire code block.
- * Paste & Run: Paste it into a fresh LLM session (Claude 3.5, Gemini 1.5, GPT-4).
+ * Load: Copy the content of METATRON.md from the root directory.
+ * Paste: Paste it into a fresh LLM session (Claude 3.5, Gemini 1.5, GPT-4).
  * Verify: The system will reply: >> METATRON v2.1 ONLINE.
  * Execute: Simply ask your question.
    * User: "Analyze the safety risks of this Python script."
    * Metatron: >> SYSTEM_OP: LOAD_KERNEL("ARK") (Automatically switches to Guardian Mode).
 Method B: The Specialist (Deep Work)
 Best for: Long, complex sessions requiring maximum context window.
- * Select Kernel: Browse the library for the specific expert you need (e.g., TITAN for a business negotiation).
- * Copy Code: Open Library/TITAN.md and copy the code.
- * Paste & Run: Paste it into the LLM.
+ * Select: Go to Promptware_Library/ and open the specific kernel file (e.g., TITAN.md).
+ * Copy: Copy the raw code block.
+ * Paste: Paste it into the LLM.
  * Verify: The system will reply: >> TITAN v2.1 ONLINE. [LEVERAGE DETECTED].
- * Execute: Proceed with your specialized task. The LLM will now refuse to break character.
+ * Execute: Proceed with your specialized task.
 Method C: The Chimera Stack (Advanced Composition)
-Best for: Complex, multi-modal tasks that require conflicting skills (e.g., Creative Writing + Nuclear Physics).
- * Identify Needs: "I need a story (NEXUS) about a nuclear reactor that is physically accurate (AXIOM) and safe (ARK)."
- * Compose: Construct the prompt by stacking the kernels in Safety Order (Layer 1 \to Layer 2 \to Layer 3).
- * Paste Command:
+Best for: Complex, multi-modal tasks that require conflicting skills.
+ * Compose: Construct the prompt by stacking kernels in Safety Order (Layer 1 \to Layer 2 \to Layer 3).
+ * Example Command:
    LOAD STACK:
-1. [ARK] (The Guardian - Safety Layer)
-2. [AXIOM] (The Scientist - Logic Layer)
-3. [NEXUS] (The Artist - Persona Layer)
+1. [ARK] (from ARK.md)
+2. [AXIOM] (from AXIOM.md)
+3. [NEXUS] (from NEXUS.md)
 
- * Execute: The system will output a story where the physics are perfect, safety protocols are strictly observed, and the narrative is compelling.
+ * Result: A story where the physics are perfect, safety protocols are strictly observed, and the narrative is compelling.
 📂 Repository Structure
-Promptware_OS/
-├── README.md                # You are here.
-├── PROMPTWARE_OS.md         # The Core Specification & System Calls
-├── METATRON.md              # The Zero-Latency Bootloader
-├── KERNEL_INDEX.json        # The Master Registry (Machine Readable)
-├── PILOTS_GUIDE.md          # Detailed User Manual
-├── DEVELOPER_GUIDE.md       # IDE Implementation Guide (JSON Parsing)
-└── Library/                 # The 17 Kernel Files
-    ├── Guardians/           # Layer 1
-    │   ├── ARK.md
-    │   ├── VULCAN.md
-    │   ├── CADUCEUS.md
-    │   └── PSYCHE.md
-    ├── Engines/             # Layer 2
-    │   ├── AXIOM.md
-    │   ├── TITAN.md
-    │   ├── APOLLO.md
-    │   ├── LEX.md
-    │   ├── QUANTUM.md
-    │   ├── CHRONOS.md
-    │   └── TYCHE.md
-    └── Voices/              # Layer 3
-        ├── NEXUS.md
-        ├── SOCRATES.md
-        ├── MAESTRO.md
-        ├── MORPHEUS.md
-        ├── HERMES.md
-        └── DELPHI.md
+Based on v2.1 Standards:
+| File / Folder | Purpose |
+|---|---|
+| PROMPTWARE_OS.md | The Spec. Defines the Core System Calls and Chimera Protocol. |
+| METATRON.md | The Bootloader. The Zero-Latency Router. |
+| KERNEL_INDEX.json | The Registry. Machine-readable list of all kernels and capabilities. |
+| PILOTS_GUIDE.md | User Manual. Detailed instructions for "Flying" the OS. |
+| DEVELOPER_GUIDE.md | Dev Manual. How to build IDEs that parse the JSON headers. |
+| SYS_STATE_TEMPLATE.md | Memory Block. Template for persistent session memory. |
+| Promptware_Library/ | The Vault. Contains the 17 Kernel Markdown files. |
 
 📜 License & Credits
  * Architect: Dr. Aneesh Joseph
