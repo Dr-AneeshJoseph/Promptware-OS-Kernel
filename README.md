@@ -1,24 +1,23 @@
-╔════════════════════════════════════════════════════════════════════╗
-╔════════════════════════════════════════════════════════════════════╗
-║    ██████╗  ██████╗  ██████╗ ███╗   ███╗  ███████╗  ██████╗  █████╗   ║
-║    ██╔══██╗ ██╔══██╗ ██╔══██╗████╗ ████║  ██╔════╝  ██╔══██╗██╔══██╗  ║
-║    ██████╔╝ ██████╔╝ ██████╔╝██╔████╔██║  █████╗    ██████╔╝███████║  ║
-║    ██╔═══╝  ██╔══██╗ ██╔══██╗██║╚██╔╝██║  ██╔══╝    ██╔═══╝ ██╔══██║  ║
-║    ██║      ██║  ██║ ██║  ██║██║ ╚═╝ ██║  ███████╗  ██║     ██║  ██║  ║
-║    ╚═╝      ╚═╝  ╚═╝ ╚═╝  ╚═╝╚═╝     ╚═╝  ╚══════╝  ╚═╝     ╚═╝  ╚═╝  ║
-║                                                                    ║
-║  P R O M P T W A R E    ::    O P E R A T I N G    S Y S T E M      ║
-╚════════════════════════════════════════════════════════════════════╝
+# 🚀 Promptware OS Kernel Suite
+
+![OS Version](https://img.shields.io/badge/OS-v1.3.0_Chimera-blue)
+![Kernels](https://img.shields.io/badge/Kernels-12_Specialized-green)
+![License](https://img.shields.io/badge/license-MIT-purple)
+
+---
 
 ### 🔗 OS STATUS
 
-> **VERSION:** v1.3.0 (Chimera Composition)
-> **KERNELS:** 12 SPECIALIZED + 1 BOOTLOADER
-> **LICENSE:** MIT
+| Metric | Value |
+| :--- | :--- |
+| **VERSION** | v1.3.0 (Chimera Composition) |
+| **KERNELS** | 12 SPECIALIZED + 1 BOOTLOADER |
+| **LICENSE** | MIT |
+| **ARCHITECT** | Dr. Aneeesh Joseph 
 
-🚀 Promptware OS Kernel Suite 
-> "Truth > Speed."
-> 
+---
+> **"Truth > Speed."**
+
 This repository contains the reference implementation of Promptware OS v1.3, a standard for installing cognitive operating systems into Large Language Models (LLMs).
 Promptware OS transforms an LLM into a specialized, stateful agent governed by The Four Global Invariants (e.g., The Law of Safety Inheritance, The Law of Falsifiability).
 🧠 The Promptware Library: The 12 Archetypes
