@@ -62,6 +62,35 @@ These kernels shape the output style and format.
 | MORPHEUS | MORPHEUS.md | The Dreamer. Surrealism, Abstract Games. | [GAME_STATE], [TEXTURE] |
 | HERMES | HERMES.md | The Messenger. Translation, Rhetoric. | [SYS_TRANSLATE], [SYS_RHETORIC] |
 | DELPHI | DELPHI.md | The Oracle. Lateral Thinking, Symbolism. | [SYS_SYMBOL], [SYS_OBLIQUE] |
+
+
+
+
+
+
+### 🧠 Prerequisite: Session Memory (Optional but Recommended)
+*Use this to keep the AI from forgetting your preferences between switches.*
+
+1.  Open `SYS_STATE_TEMPLATE.md`.
+2.  Fill in your preferences (e.g., `[USER_PREF]: "Use Python for all code."`).
+3.  **Injection:** Paste this block into the LLM **before** loading any kernel.
+4.  *Result:* Now, whether you load **TITAN** or **AXIOM**, they will both know to use Python.
+
+OR, if you want it integrated directly into the Method B (Specialist) instructions, update Method B to this:
+### Method B: The Specialist (Deep Work)
+*Best for: Long, complex sessions requiring maximum context window.*
+
+1.  **Initialize Memory (Recommended):** Copy/Paste the content of `SYS_STATE_TEMPLATE.md` first.
+2.  **Select Kernel:** Open `Promptware_Library/` and choose your specialist (e.g., `TITAN.md`).
+3.  **Load:** Copy the code block and paste it into the LLM.
+4.  **Verify:** The system replies: `>> TITAN v2.1 ONLINE.`
+5.  **Execute:** The kernel now runs with your specific preferences active.
+
+
+
+
+
+
 🛠️ How to Use (Step-by-Step)
 There are three ways to use Promptware OS. Choose the method that fits your workflow.
 Method A: The Master Bootloader (Recommended)
