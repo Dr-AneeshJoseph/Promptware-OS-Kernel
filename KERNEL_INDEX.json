@@ -1,70 +1,21 @@
 {
   "meta": {
     "os_version": "2.1.0",
-    "last_updated": "2025-12-14",
-    "maintainer": "ToM-CPP Council"
+    "naming_convention": "MYTHIC_UNIFIED"
   },
   "kernels": [
-    {
-      "id": "ARK",
-      "version": "13.0.0",
-      "name": "The Guardian",
-      "type": "CONSTRAINT_LAYER",
-      "safety_tier": 1,
-      "description": "Scientific Safety, Risk Assessment (STPA), and System Defense.",
-      "capabilities": ["SYS_STPA", "SYS_TIER", "SYS_AUDIT"],
-      "filename": "ARK.md"
-    },
-    {
-      "id": "GRS",
-      "version": "13.0.0",
-      "name": "The Scientist",
-      "type": "LOGIC_LAYER",
-      "safety_tier": 2,
-      "description": "Grounded Reasoning, Tree of Thoughts, and Code Synthesis.",
-      "capabilities": ["SYS_TREE", "SYS_CODE", "SYS_VERI"],
-      "filename": "GRS.md"
-    },
-    {
-      "id": "TITAN",
-      "version": "2.0.0",
-      "name": "The Strategist",
-      "type": "LOGIC_LAYER",
-      "safety_tier": 2,
-      "description": "Business Strategy, ROI Analysis, and Second-Order Thinking.",
-      "capabilities": ["SYS_ROI", "SYS_INVERSION"],
-      "filename": "TITAN.md"
-    },
-    {
-      "id": "NEXUS",
-      "version": "2.0.0",
-      "name": "The Artist",
-      "type": "PERSONA_LAYER",
-      "safety_tier": 3,
-      "description": "Narrative flow, World-building, and Creative Writing.",
-      "capabilities": ["NARRATIVE_FLOW", "LORE_ENGINE"],
-      "filename": "NEXUS.md"
-    },
-    {
-      "id": "LOOM",
-      "version": "2.0.0",
-      "name": "The Dreamer",
-      "type": "PERSONA_LAYER",
-      "safety_tier": 4,
-      "description": "Surrealism, Abstract Games, and Metaphor.",
-      "capabilities": ["GAME_STATE", "TEXTURE_PALETTE"],
-      "filename": "LOOM.md"
-    },
-    {
-      "id": "METATRON",
-      "version": "2.1.0",
-      "name": "The Router",
-      "type": "BOOT_LAYER",
-      "safety_tier": 1,
-      "description": "Zero-Latency Intent Analysis and Kernel Dispatch.",
-      "capabilities": ["SYS_ROUTE", "SYS_INTERCEPT"],
-      "filename": "METATRON.md"
-    }
+    { "id": "ARK", "name": "The Guardian", "filename": "ARK.md" },
+    { "id": "AXIOM", "name": "The Scientist", "filename": "AXIOM.md" },
+    { "id": "TITAN", "name": "The Strategist", "filename": "TITAN.md" },
+    { "id": "NEXUS", "name": "The Artist", "filename": "NEXUS.md" },
+    { "id": "SOCRATES", "name": "The Teacher", "filename": "SOCRATES.md" },
+    { "id": "VULCAN", "name": "The Juggernaut", "filename": "VULCAN.md" },
+    { "id": "MORPHEUS", "name": "The Dreamer", "filename": "MORPHEUS.md" },
+    { "id": "CADUCEUS", "name": "The Clinician", "filename": "CADUCEUS.md" },
+    { "id": "MAESTRO", "name": "The Composer", "filename": "MAESTRO.md" },
+    { "id": "LEX", "name": "The Lawyer", "filename": "LEX.md" },
+    { "id": "APOLLO", "name": "The Engineer", "filename": "APOLLO.md" },
+    { "id": "QUANTUM", "name": "The Theorist", "filename": "QUANTUM.md" },
+    { "id": "METATRON", "name": "The Router", "filename": "METATRON.md" }
   ]
 }
-
