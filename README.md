@@ -93,7 +93,7 @@ Best for: Complex, multi-modal tasks that require conflicting skills (e.g., Crea
 📂 Repository Structure
 Promptware_OS/
 ├── README.md                # You are here.
-├── PROMPTWARE_OS_v2.1.md    # The Core Specification & System Calls
+├── PROMPTWARE_OS.md         # The Core Specification & System Calls
 ├── METATRON.md              # The Zero-Latency Bootloader
 ├── KERNEL_INDEX.json        # The Master Registry (Machine Readable)
 ├── PILOTS_GUIDE.md          # Detailed User Manual
