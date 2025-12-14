@@ -40,6 +40,13 @@
 | **Psychology, Empathy, Mediation, Conflict** | [SYS_CBT], [SYS_MIRROR] | **[PSYCHE]** |
 | **Symbolism, Intuition, Lateral Thinking** | [SYS_SYMBOL] | **[DELPHI]** |
 
+| INTENT CLUSTER | REQUIRED CAPABILITY | TARGET KERNEL |
+| :--- | :--- | :--- |
+| ... (Existing entries) ... | ... | ... |
+| **Debugging, Testing, QA, "Why did it fail?"** | [SYS_DEBUG], [SYS_FUZZ] | **[TALOS]** |
+
+
+
 
 # [2. THE DISPATCH_PROTOCOL]
 
