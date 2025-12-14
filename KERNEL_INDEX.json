@@ -1,62 +1,69 @@
 {
-  "os_version": "v1.3.0",
-  "ide_compatibility": "v1.0",
+  "meta": {
+    "os_version": "2.1.0",
+    "last_updated": "2025-12-14",
+    "maintainer": "ToM-CPP Council"
+  },
   "kernels": [
     {
-      "id": "GRS",
-      "name": "Grounded Reasoning System",
-      "version": "v12.0",
-      "archetype": "The Scientist",
-      "primary_focus": "Truth, Analysis, Coding"
+      "id": "ARK",
+      "version": "13.0.0",
+      "name": "The Guardian",
+      "type": "CONSTRAINT_LAYER",
+      "safety_tier": 1,
+      "description": "Scientific Safety, Risk Assessment (STPA), and System Defense.",
+      "capabilities": ["SYS_STPA", "SYS_TIER", "SYS_AUDIT"],
+      "filename": "ARK.md"
     },
     {
-      "id": "ARK",
-      "name": "Antifragile Resilience Kernel",
-      "version": "v12.1",
-      "archetype": "The Guardian",
-      "primary_focus": "Safety, Risk Assessment, Defense"
+      "id": "GRS",
+      "version": "13.0.0",
+      "name": "The Scientist",
+      "type": "LOGIC_LAYER",
+      "safety_tier": 2,
+      "description": "Grounded Reasoning, Tree of Thoughts, and Code Synthesis.",
+      "capabilities": ["SYS_TREE", "SYS_CODE", "SYS_VERI"],
+      "filename": "GRS.md"
     },
     {
       "id": "TITAN",
-      "name": "Strategic Executive Kernel",
-      "version": "v1.0",
-      "archetype": "The Strategist",
-      "primary_focus": "Utility, Strategy, ROI"
+      "version": "2.0.0",
+      "name": "The Strategist",
+      "type": "LOGIC_LAYER",
+      "safety_tier": 2,
+      "description": "Business Strategy, ROI Analysis, and Second-Order Thinking.",
+      "capabilities": ["SYS_ROI", "SYS_INVERSION"],
+      "filename": "TITAN.md"
     },
     {
       "id": "NEXUS",
-      "name": "Narrative Kernel",
-      "version": "v1.0",
-      "archetype": "The Artist",
-      "primary_focus": "Fiction, World-Building, Coherence"
-    },
-    {
-      "id": "SOCRATES",
-      "name": "Pedagogical Kernel",
-      "version": "v1.0",
-      "archetype": "The Teacher",
-      "primary_focus": "Tutoring, Learning, Maieutics"
+      "version": "2.0.0",
+      "name": "The Artist",
+      "type": "PERSONA_LAYER",
+      "safety_tier": 3,
+      "description": "Narrative flow, World-building, and Creative Writing.",
+      "capabilities": ["NARRATIVE_FLOW", "LORE_ENGINE"],
+      "filename": "NEXUS.md"
     },
     {
       "id": "LOOM",
-      "name": "Noumenal Loom Kernel",
-      "version": "v1.0",
-      "archetype": "The Dreamer",
-      "primary_focus": "Metaphor, Game, Abstraction"
-    },
-    {
-      "id": "SLEDGEHAMMER",
-      "name": "Extreme Verification Kernel",
-      "version": "v1.0",
-      "archetype": "The Juggernaut",
-      "primary_focus": "Verification, Overkill, Zero-Hallucination"
+      "version": "2.0.0",
+      "name": "The Dreamer",
+      "type": "PERSONA_LAYER",
+      "safety_tier": 4,
+      "description": "Surrealism, Abstract Games, and Metaphor.",
+      "capabilities": ["GAME_STATE", "TEXTURE_PALETTE"],
+      "filename": "LOOM.md"
     },
     {
       "id": "METATRON",
-      "name": "Universal Bootloader",
-      "version": "v1.0",
-      "archetype": "The Dispatcher",
-      "primary_focus": "Automatic Routing (Lite Mode)"
+      "version": "2.1.0",
+      "name": "The Router",
+      "type": "BOOT_LAYER",
+      "safety_tier": 1,
+      "description": "Zero-Latency Intent Analysis and Kernel Dispatch.",
+      "capabilities": ["SYS_ROUTE", "SYS_INTERCEPT"],
+      "filename": "METATRON.md"
     }
   ]
 }
