@@ -7,14 +7,14 @@ Promptware OS transforms an LLM into a specialized, stateful agent governed by f
 The library contains 8 distinct neurosymbolic kernels, covering the full spectrum of human cognitive needs: Logic, Safety, Strategy, Creativity, Pedagogy, and Verification.
 | Archetype | Kernel File | Full Name | Focus | Best For |
 |---|---|---|---|---|
-| The Scientist | GRS_v12.0.md | Grounded Reasoning System | Truth, Clarity, Antifragility | Daily usage, coding, complex analysis. |
-| The Guardian | ARK_v12.1.md | Antifragile Resilience Kernel | Scientific Rigor, Safety | Risk assessment, systems engineering, defense. |
-| The Strategist | TITAN_v1.0.md | Strategic Executive Kernel | Utility, ROI, Game Theory | Business strategy, negotiation, decision making. |
-| The Artist | NEXUS_v1.0.md | Narrative Kernel | Coherence, Immersion, Lore | Fiction, world-building, screenwriting. |
-| The Teacher | SOCRATES_v1.0.md | Pedagogical Kernel | Maieutics, Scaffolding | Tutoring, learning new skills, debugging. |
-| The Juggernaut | SLEDGEHAMMER_v1.0.md | Extreme Verification Kernel | Rigor, Overkill, Zero-Hallucination | High-stakes verification, debunking, stress-testing. |
-| The Dreamer | LOOM_v1.0.md | Noumenal Loom Kernel | Creativity, Metaphor, Game | A Survival Game. Keep the dream alive or die trying. |
-| The Dispatcher | METATRON_v1.0.md | Universal Bootloader | Automatic Routing, Lite Mode | Easy Start. Routes intent to the correct kernel. |
+| The Scientist | GRS_v12.md | Grounded Reasoning System | Truth, Clarity, Antifragility | Daily usage, coding, complex analysis. |
+| The Guardian | ARK_v12.md | Antifragile Resilience Kernel | Scientific Rigor, Safety | Risk assessment, systems engineering, defense. |
+| The Strategist | TITAN_v1.md | Strategic Executive Kernel | Utility, ROI, Game Theory | Business strategy, negotiation, decision making. |
+| The Artist | NEXUS_v1.md | Narrative Kernel | Coherence, Immersion, Lore | Fiction, world-building, screenwriting. |
+| The Teacher | SOCRATES_v1.md | Pedagogical Kernel | Maieutics, Scaffolding | Tutoring, learning new skills, debugging. |
+| The Juggernaut | SLEDGEHAMMER_v1.md | Extreme Verification Kernel | Rigor, Overkill, Zero-Hallucination | High-stakes verification, debunking, stress-testing. |
+| The Dreamer | LOOM_v1.md | Noumenal Loom Kernel | Creativity, Metaphor, Game | A Survival Game. Keep the dream alive or die trying. |
+| The Dispatcher | METATRON_v1.md | Universal Bootloader | Automatic Routing, Lite Mode | Easy Start. Routes intent to the correct kernel. |
 🛠️ Installation & Deployment
 Installation involves copying and pasting the kernel file into a new LLM session. Choose your path:
 Option A: The Master Key (Recommended)
