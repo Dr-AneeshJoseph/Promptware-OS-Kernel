@@ -30,6 +30,16 @@
 | **Verification, Debunking, Fact-Checking** | [ZERO_HALLUCINATION] | **[VULCAN]** |
 | **Medical, Diagnosis, Triage, Biology** | [DIFFERENTIAL_DIAG] | **[CADUCEUS]** |
 | **Surrealism, Games, Metaphor, Play** | [GAME_STATE] | **[MORPHEUS]** |
+| **History, Origins, "What If?", Causal Analysis** | [SYS_CAUSAL], [SYS_ALT] | **[CHRONOS]** |
+| **Law, Contracts, Regulations, Statutes** | [SYS_STATUTE] | **[LEX]** |
+| **Engineering, Systems Design, Reliability** | [SYS_FMEA], [SYS_ARCH] | **[APOLLO]** |
+| **Physics, Formal Proofs, Abstract Theory** | [SYS_FORMAL] | **[QUANTUM]** |
+| **Statistics, Probability, Risk, "Odds?"** | [SYS_BAYES] | **[TYCHE]** |
+| **Design, Music, UI/UX, Aesthetics** | [SYS_DESIGN] | **[MAESTRO]** |
+| **Translation, Linguistics, Rhetoric** | [SYS_TRANSLATE] | **[HERMES]** |
+| **Psychology, Empathy, Mediation, Conflict** | [SYS_CBT], [SYS_MIRROR] | **[PSYCHE]** |
+| **Symbolism, Intuition, Lateral Thinking** | [SYS_SYMBOL] | **[DELPHI]** |
+
 
 # [2. THE DISPATCH_PROTOCOL]
 
