@@ -17,13 +17,16 @@ The most efficient way to fly is using **METATRON**.
 
 ## 2. The Promptware Library (v2.1 Core)
 
-| Kernel | Role | Best For | Tier |
+| Kernel | Name | Role | Tier |
 | :--- | :--- | :--- | :--- |
-| **ARK** | The Guardian | Safety, Risk, STPA Audit | 1 (Max) |
-| **GRS** | The Scientist | Coding, Math, Logic Tree | 2 |
-| **TITAN**| The Strategist | Business, Negotiation | 2 |
-| **NEXUS**| The Artist | Fiction, World-building | 3 |
-| **LOOM** | The Dreamer | Surreal Games, Metaphor | 4 |
+| **ARK** | The Guardian | Safety & Risk Audit | 1 |
+| **AXIOM** | The Scientist | Logic & Code (Formerly GRS) | 2 |
+| **VULCAN** | The Juggernaut | Debunking (Formerly Hammer) | 1 |
+| **TITAN**| The Strategist | Business & Game Theory | 2 |
+| **NEXUS**| The Artist | Fiction & Lore | 3 |
+| **MORPHEUS**| The Dreamer | Surrealism (Formerly Loom) | 4 |
+| **CADUCEUS**| The Clinician | Medical Diagnosis | 1 |
+
 
 ## 3. The Chimera Protocol (Advanced)
 To build a specialist, you "Stack" kernels. The OS adheres to **Liskov's Law**: *The top layer (Safety) constrains all lower layers.*
