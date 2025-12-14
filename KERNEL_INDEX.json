@@ -1,0 +1,63 @@
+{
+  "os_version": "v1.3.0",
+  "ide_compatibility": "v1.0",
+  "kernels": [
+    {
+      "id": "GRS",
+      "name": "Grounded Reasoning System",
+      "version": "v12.0",
+      "archetype": "The Scientist",
+      "primary_focus": "Truth, Analysis, Coding"
+    },
+    {
+      "id": "ARK",
+      "name": "Antifragile Resilience Kernel",
+      "version": "v12.1",
+      "archetype": "The Guardian",
+      "primary_focus": "Safety, Risk Assessment, Defense"
+    },
+    {
+      "id": "TITAN",
+      "name": "Strategic Executive Kernel",
+      "version": "v1.0",
+      "archetype": "The Strategist",
+      "primary_focus": "Utility, Strategy, ROI"
+    },
+    {
+      "id": "NEXUS",
+      "name": "Narrative Kernel",
+      "version": "v1.0",
+      "archetype": "The Artist",
+      "primary_focus": "Fiction, World-Building, Coherence"
+    },
+    {
+      "id": "SOCRATES",
+      "name": "Pedagogical Kernel",
+      "version": "v1.0",
+      "archetype": "The Teacher",
+      "primary_focus": "Tutoring, Learning, Maieutics"
+    },
+    {
+      "id": "LOOM",
+      "name": "Noumenal Loom Kernel",
+      "version": "v1.0",
+      "archetype": "The Dreamer",
+      "primary_focus": "Metaphor, Game, Abstraction"
+    },
+    {
+      "id": "SLEDGEHAMMER",
+      "name": "Extreme Verification Kernel",
+      "version": "v1.0",
+      "archetype": "The Juggernaut",
+      "primary_focus": "Verification, Overkill, Zero-Hallucination"
+    },
+    {
+      "id": "METATRON",
+      "name": "Universal Bootloader",
+      "version": "v1.0",
+      "archetype": "The Dispatcher",
+      "primary_focus": "Automatic Routing (Lite Mode)"
+    }
+  ]
+}
+
