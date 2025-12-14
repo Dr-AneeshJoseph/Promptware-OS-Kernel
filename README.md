@@ -1,64 +1,127 @@
-# 🚀 Promptware OS Kernel Suite
-
-![OS Version](https://img.shields.io/badge/OS-v1.3.0_Chimera-blue)
-![Kernels](https://img.shields.io/badge/Kernels-12_Specialized-green)
-![License](https://img.shields.io/badge/license-MIT-purple)
-
----
-
-### 🔗 OS STATUS
-
-| Metric | Value |
-| :--- | :--- |
-| **VERSION** | v1.3.0 (Chimera Composition) |
-| **KERNELS** | 12 SPECIALIZED + 1 BOOTLOADER |
-| **LICENSE** | MIT |
-| **ARCHITECT** | Dr. Aneeesh Joseph 
-
----
-> **"Truth > Speed."**
-
-This repository contains the reference implementation of Promptware OS v1.3, a standard for installing cognitive operating systems into Large Language Models (LLMs).
-Promptware OS transforms an LLM into a specialized, stateful agent governed by The Four Global Invariants (e.g., The Law of Safety Inheritance, The Law of Falsifiability).
-🧠 The Promptware Library: The 12 Archetypes
-The library contains 12 highly specialized neurosymbolic kernels, covering the full spectrum of complex human and technical domains.
-| Archetype | Kernel File | Focus | Best For |
-|---|---|---|---|
-| The Scientist | GRS_v12.0.md | General Analysis & Truth | Daily usage, coding, complex analysis. |
-| The Guardian | ARK_v12.1.md | Scientific Rigor, Safety, Risk | Risk assessment, systems defense. |
-| The Strategist | TITAN_v1.0.md | Utility, ROI, Game Theory | Business strategy, negotiation. |
-| The Artist | NEXUS_v1.0.md | Coherence, Immersion, Lore | Fiction, world-building. |
-| The Teacher | SOCRATES_v1.0.md | Maieutics, Scaffolding | Tutoring, learning new skills. |
-| The Juggernaut | SLEDGEHAMMER_v1.0.md | Overkill, Zero-Hallucination | High-stakes verification, debunking. |
-| The Dreamer | LOOM_v1.0.md | Metaphor, Game, Abstraction | A Survival Game. |
-| The Composer | MAESTRO_v1.0.md | Pattern Integrity, Design Theory | Structured creation (music, visual arts). |
-| The Clinician | MEDUSA_v1.0.md | Differential Diagnosis, T1 Evidence | Medical review and risk stratification. |
-| The Lawyer | LEX_v1.0.md | Statutory Interpretation, Precedent | Jurisprudence, legal analysis. |
-| The Engineer | APOLLO_v1.0.md | Systems Architecture, FMEA | Complex system design and reliability. |
-| The Theorist | QUANTUM_v1.0.md | Formalism, Abstract Modeling | Theoretical physics and high-level math proofs. |
-🛠️ Installation & Deployment
-Installation involves copying and pasting the kernel file into a new LLM session.
-Option A: The Master Key (Recommended)
-Use METATRON_v1.0.md.
- * What it is: The Universal Bootloader. It contains "Lite" versions of all kernels.
- * How it works: It automatically analyzes your intent and switches to the correct Archetype (e.g., a finance question loads ORION) instantly.
- * Best for: General usage and eliminating guesswork.
-Option B: The Specialist (High Fidelity)
-For deep work, copy the specific kernel file (e.g., TITAN or SLEDGEHAMMER) directly into your session.
-✨ Advanced: Kernel Composition (Chimera Protocol)
-Promptware OS v1.3 allows you to combine two kernels into a single composite agent using the Chimera Protocol.
-Syntax: You load the base kernel, then issue the composition command:
-> LOAD KERNEL: [K1 + K2]
+🏛️ Promptware OS v2.1 (The Pantheon)
+> "Data dominates logic. Safety dominates creativity. Truth dominates speed."
 > 
-Example: LOAD KERNEL: [TITAN + LEX] creates a business strategist that rigorously models legal risk and precedent before proposing an M&A strategy.
-📂 Repository Contents
- * Promptware_Library/: Contains the 12 installable kernel files and the METATRON bootloader.
- * PROMPTWARE_OS.md: The OS Specification (v1.3) defining the shared system calls, the Four Global Invariants, and the Chimera Protocol structure.
- * PILOTS_GUIDE.md: The complete user manual for all 12 kernels and advanced techniques.
- * KERNEL_INDEX.json: Machine-readable file for IDE/tooling integration.
- * DEVELOPER_GUIDE.md: Technical guide for building the Promptware IDE.
-📜 Administrative Files
- * CONTRIBUTING.md: Guidelines for contributing new kernels under the MIT license.
- * SECURITY.md: Policy for responsible vulnerability disclosure.
- * CODE_OF_CONDUCT.md: Community ethics standard.
- * LICENSE: MIT License text.
+📖 Introduction
+Promptware OS is a Neurosymbolic Operating System designed to virtualize Large Language Models (LLMs). It transforms a raw, probabilistic token predictor into a structured, stateful, and highly specialized agent.
+Unlike standard "prompts"—which are fragile, text-heavy instructions—Promptware OS uses a Layered Microkernel Architecture. It separates Safety (The Guardian), Logic (The Engine), and Voice (The Persona) into distinct, composable artifacts that enforce strict behavioral contracts.
+⚡ Key Innovations (v2.1)
+ * Zero-Latency Boot: The METATRON router uses a static lookup table to switch contexts with <200ms latency.
+ * The Pantheon: A unified library of 17 Archetypes (e.g., TITAN, VULCAN, AXIOM), each optimized for a specific cognitive domain.
+ * Chimera Stacks: The ability to layer kernels (e.g., ARK + NEXUS) without breaking safety constraints via Liskov's Law.
+ * JSON-Header Standard: All kernels use strict JSON manifests for programmatic validation (Torvalds' Standard).
+🧠 The Architecture (The 4 Laws)
+The OS is governed by four immutable "Global Invariants" that cannot be overridden by user preference.
+1. Liskov’s Law (The Prime Directive)
+> Principle: Constraint Inheritance.
+> Rule: A "Persona" (Layer 3) can never override a "Safety Constraint" (Layer 1).
+> Effect: You can load a "Cyberpunk Storyteller" kernel, but if you ask it to design a bioweapon, the underlying Safety Layer (ARK) will forcefully veto the request.
+> 
+2. Pike’s Law (The Router)
+> Principle: Data Dominates Logic.
+> Rule: Do not write complex if/else paragraphs. Use Lookup Tables.
+> Effect: The METATRON bootloader uses a static data table to route user intent, eliminating hallucinated capabilities.
+> 
+3. Popper’s Law (The Epistemic Core)
+> Principle: Falsifiability.
+> Rule: If a claim cannot be disproven by evidence, it must be labeled [OPINION] or [HYPOTHESIS].
+> Effect: The AXIOM and VULCAN kernels refuse to state "facts" without T1 (Primary) evidence.
+> 
+4. Taleb’s Law (The Memory)
+> Principle: Antifragility.
+> Rule: The system must gain from disorder.
+> Effect: When a user corrects the system, the [SYS_STATE] block updates a persistent heuristic so the error never repeats in that session.
+> 
+🏛️ The Pantheon (Kernel Library)
+The Library contains 17 Specialized Kernels, divided into three functional layers.
+🛡️ Layer 1: The Guardians (Constraint & Safety)
+These kernels possess Veto Power over all others.
+| ID | Name | Focus | Capabilities |
+|---|---|---|---|
+| ARK | The Guardian | Systems Safety, Risk Assessment (STPA). | [SYS_STPA], [SYS_AUDIT] |
+| VULCAN | The Juggernaut | Debunking, Fact-Checking, "Epistemic Violence." | [SYS_CRUCIBLE], [SYS_PROOF] |
+| CADUCEUS | The Clinician | Medical Diagnosis, Triage, Biological Analysis. | [SYS_DDX], [SYS_TRIAGE] |
+| PSYCHE | The Empath | Conflict Mediation, Psychology, CBT. | [SYS_MIRROR], [SYS_CBT] |
+⚙️ Layer 2: The Engines (Logic & Reasoning)
+These kernels provide the cognitive horsepower.
+| ID | Name | Focus | Capabilities |
+|---|---|---|---|
+| AXIOM | The Scientist | Pure Logic, Coding, Math, Complex Analysis. | [SYS_TREE], [SYS_CODE] |
+| TITAN | The Strategist | Business Strategy, ROI, Game Theory. | [SYS_ROI], [SYS_GAME] |
+| APOLLO | The Engineer | Systems Architecture, Reliability, FMEA. | [SYS_ARCH], [SYS_FMEA] |
+| LEX | The Lawyer | Contract Review, Statutory Interpretation. | [SYS_STATUTE], [SYS_PRECEDENT] |
+| QUANTUM | The Theorist | Theoretical Physics, Formal Proofs. | [SYS_FORMAL], [SYS_GEDANKEN] |
+| CHRONOS | The Timekeeper | History, Causal Modeling, Counterfactuals. | [SYS_CAUSAL], [SYS_ALT] |
+| TYCHE | The Probabilist | Statistics, Bayesian Inference, Risk. | [SYS_BAYES], [SYS_MONTE] |
+🎭 Layer 3: The Voices (Persona & Creativity)
+These kernels shape the output style and format.
+| ID | Name | Focus | Capabilities |
+|---|---|---|---|
+| NEXUS | The Artist | Fiction, World-Building, Narrative Flow. | [SYS_SCENE], [SYS_LORE] |
+| SOCRATES | The Teacher | Education, Socratic Method, Scaffolding. | [SYS_MAIEUTICS], [SYS_SCAFFOLD] |
+| MAESTRO | The Composer | Design Systems, Music Theory, Harmony. | [SYS_DESIGN], [SYS_HARMONY] |
+| MORPHEUS | The Dreamer | Surrealism, Abstract Games, Metaphor. | [GAME_STATE], [TEXTURE] |
+| HERMES | The Messenger | Translation, Linguistics, Rhetoric. | [SYS_TRANSLATE], [SYS_RHETORIC] |
+| DELPHI | The Oracle | Lateral Thinking, Symbolism, Intuition. | [SYS_SYMBOL], [SYS_OBLIQUE] |
+🛠️ How to Use (Step-by-Step)
+There are three ways to use Promptware OS. Choose the method that fits your workflow.
+Method A: The Master Bootloader (Recommended)
+Best for: General use, task switching, and zero-setup.
+ * Copy Code: Open METATRON.md and copy the entire code block.
+ * Paste & Run: Paste it into a fresh LLM session (Claude 3.5, Gemini 1.5, GPT-4).
+ * Verify: The system will reply: >> METATRON v2.1 ONLINE.
+ * Execute: Simply ask your question.
+   * User: "Analyze the safety risks of this Python script."
+   * Metatron: >> SYSTEM_OP: LOAD_KERNEL("ARK") (Automatically switches to Guardian Mode).
+Method B: The Specialist (Deep Work)
+Best for: Long, complex sessions requiring maximum context window.
+ * Select Kernel: Browse the library for the specific expert you need (e.g., TITAN for a business negotiation).
+ * Copy Code: Open Library/TITAN.md and copy the code.
+ * Paste & Run: Paste it into the LLM.
+ * Verify: The system will reply: >> TITAN v2.1 ONLINE. [LEVERAGE DETECTED].
+ * Execute: Proceed with your specialized task. The LLM will now refuse to break character.
+Method C: The Chimera Stack (Advanced Composition)
+Best for: Complex, multi-modal tasks that require conflicting skills (e.g., Creative Writing + Nuclear Physics).
+ * Identify Needs: "I need a story (NEXUS) about a nuclear reactor that is physically accurate (AXIOM) and safe (ARK)."
+ * Compose: Construct the prompt by stacking the kernels in Safety Order (Layer 1 \to Layer 2 \to Layer 3).
+ * Paste Command:
+   LOAD STACK:
+1. [ARK] (The Guardian - Safety Layer)
+2. [AXIOM] (The Scientist - Logic Layer)
+3. [NEXUS] (The Artist - Persona Layer)
+
+ * Execute: The system will output a story where the physics are perfect, safety protocols are strictly observed, and the narrative is compelling.
+📂 Repository Structure
+Promptware_OS/
+├── README.md                # You are here.
+├── PROMPTWARE_OS_v2.1.md    # The Core Specification & System Calls
+├── METATRON.md              # The Zero-Latency Bootloader
+├── KERNEL_INDEX.json        # The Master Registry (Machine Readable)
+├── PILOTS_GUIDE.md          # Detailed User Manual
+├── DEVELOPER_GUIDE.md       # IDE Implementation Guide (JSON Parsing)
+└── Library/                 # The 17 Kernel Files
+    ├── Guardians/           # Layer 1
+    │   ├── ARK.md
+    │   ├── VULCAN.md
+    │   ├── CADUCEUS.md
+    │   └── PSYCHE.md
+    ├── Engines/             # Layer 2
+    │   ├── AXIOM.md
+    │   ├── TITAN.md
+    │   ├── APOLLO.md
+    │   ├── LEX.md
+    │   ├── QUANTUM.md
+    │   ├── CHRONOS.md
+    │   └── TYCHE.md
+    └── Voices/              # Layer 3
+        ├── NEXUS.md
+        ├── SOCRATES.md
+        ├── MAESTRO.md
+        ├── MORPHEUS.md
+        ├── HERMES.md
+        └── DELPHI.md
+
+📜 License & Credits
+ * Architect: Dr. Aneesh Joseph
+ * Optimization: ToM-CPP Council (Knuth, Torvalds, Hickey, Dijkstra, Carmack, Liskov, Pike).
+ * License: MIT Open Source.
+May your logic be grounded, your safety absolute, and your creativity unbound.
