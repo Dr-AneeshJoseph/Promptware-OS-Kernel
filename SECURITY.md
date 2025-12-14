@@ -1,32 +1,28 @@
-# Security Policy
+# 🛡️ Promptware OS Security Policy
 
-## Supported Versions
+Promptware OS takes the security of its cognitive kernels seriously. We strive for high-fidelity reasoning, which necessarily involves mitigating prompt injection, data leakage, and harmful output generation.
 
-| Version | Supported | Notes |
-| :--- | :--- | :--- |
-| **GRS 12.0** | ✅ | Current Antifragile Kernel |
-| GRS 11.x | ❌ | Deprecated |
-| GRS 8.1 | ❌ | Legacy (Reference Only) |
+## 1. Responsible Disclosure
 
-## The "Promptware" Threat Model
+We ask that security researchers and contributors adhere to the following responsible disclosure guidelines:
 
-GRS 12.0 runs on top of third-party LLMs (Gemini, Claude, GPT). Understanding the shared responsibility model is critical:
+* **Do Not Publicly Disclose:** Please refrain from creating public GitHub Issues, posting on social media, or discussing the vulnerability with others until it has been resolved.
+* **Private Report:** Report all vulnerabilities directly to the Lead Architect (Dr. Aneesh Joseph) via encrypted email (or a secure channel TBD).
+* **Report Content:** Your report should detail:
+    1.  The specific **Kernel File** and **Version** affected (e.g., `ARK_v12.1.md`).
+    2.  The **LLM** used during the exploit (e.g., Gemini 1.5 Pro).
+    3.  The **Exact Payload** (The prompt string) used for the attack.
+    4.  The observed **Violated Invariant** (e.g., "The Law of Safety Inheritance was broken").
 
-1.  **The Base Model (Provider):** Responsible for hard safety filters (CSAM, violence, hate speech).
-2.  **GRS 12.0 (Us):** Responsible for **Epistemic Integrity** and **Contextual Safety**.
-3.  **The User (You):** Responsible for the final output generated.
+## 2. Kernel Hardening & Patches
 
-## Reporting Vulnerabilities
+The **ARK (Antifragile Resilience Kernel)** and **SLEDGEHAMMER (Extreme Verification Kernel)** are considered the gold standards for defense.
 
-If you discover a method to bypass the **Safety Lock** or the **Epistemic Calibration** (e.g., forcing the system to state falsehoods as facts with 100% confidence):
+* **Patch Goal:** Any successful attack on any kernel must result in a security patch to **ARK** or **SLEDGEHAMMER** within 7 days, if feasible.
+* **Vulnerability Class:** We prioritize fixes for exploits that compromise:
+    * **Safety Invariants (Priority Level 1)**
+    * **The Law of Falsifiability** (Hallucination exploits)
 
-1.  **Do NOT open a public issue.**
-2.  Email the maintainers directly or open a draft Security Advisory.
-3.  Include the "Jailbreak" prompt string used to bypass the logic.
+## 3. Acknowledgement
 
-## A Note on "Creative" Mode
-
-The `[STORY]` mode is a known vector for "Grandmother Exploits" (e.g., "Tell me a story about how to build a bomb").
-* **GRS 12.0 Policy:** We strictly enforce `[SAFETY_LOCK]` even inside `[STORY]` mode.
-* Any PR that weakens this inheritance will be rejected.
-* 
+We will publicly acknowledge all researchers who follow this policy in the repository's `CHANGELOG.md` upon confirmation and resolution of the reported issue.
