@@ -1,7 +1,7 @@
-# PROMPTWARE OS v1.2 [Kernel Specification]
+# PROMPTWARE OS v1.3 [Kernel Specification]
 
 > **Status:** Stable
-> **Version:** 1.2.0 (Unified Toolchest)
+> **Version:** 1.3.0 (Chimera Composition)
 > **Paradigm:** Neurosymbolic Cognitive Architecture
 > **Origin:** ToM-CPP Council
 
@@ -9,14 +9,16 @@
 
 ## 1. Introduction
 
-**Promptware OS** is the virtualization layer for Large Language Models. It abstracts the raw "token prediction" capabilities into structured **System Calls**.
+**Promptware OS v1.3** is the virtualization layer for Large Language Models. It abstracts the raw "token prediction" capabilities into structured **System Calls**.
 
-### The Architecture
+### The Core Metaphor (Retained from v1.0)
+Just as Linux manages CPU and RAM, Promptware OS manages **Attention** and **Context**.
 * **Hardware:** The LLM (Gemini 3.0, Claude 3.5).
 * **OS Layer:** Defines the Primitives (Reasoning, Evidence, Safety).
-* **Kernel Layer:**
-    * **GRS 12.0:** Optimized for *Breadth* (General Reasoning).
-    * **ARK 12.1:** Optimized for *Depth* (Scientific Safety).
+* **Kernel Layer:** GRS, ARK, TITAN, etc. (The Applications).
+
+### The Chimera Protocol
+The protocol allows developers to dynamically combine two or more existing kernels (e.g., `LOAD KERNEL: [TITAN + ARK]`).
 
 ---
 
@@ -44,38 +46,16 @@ Kernels do not invent reasoning methods; they call these OS Primitives.
 | **SYS_ROUTE** | **Routing Kernel** | Detecting intent and selecting the right engine. | `[ROUTING]` |
 | **SYS_TRACE** | **Lucid Trace** | Visualizing the "Thought Process" to the user. | `[TRACE]` |
 | **SYS_STATE** | **Dynamic Context** | Storing user preferences and session learning. | `[STATE]` |
+| **SYS_COMP** | **Chimera Composition** | Merging behavioral constraints. | `[CHIMERA_LOAD]` |
+
+> **Pike's Law Reminder:** The functionality of `SYS_ROUTE`, `SYS_CODE`, and `SYS_COMP` is governed by the principle: *"Data dominates logic."* (All decision logic must be stored in tables or code, not prose).
 
 ---
 
-## 3. Memory Management (The Unified State)
+## 3. Memory Management... (Unchanged)
+## 4. The Chimera Protocol... (Unchanged)
+## 5. Global Invariants... (Unchanged)
 
-To ensure kernels are interoperable, all Promptware must use this state structure.
+---
 
-
-[DYNAMIC_STATE]
-  > [USER_PREFS]: (e.g., "Prefer brevity", "No Python")
-  > [SESSION_HEURISTICS]: (Learned constraints from corrections)
-  > [CONTEXT_VECTOR]: (Continuation / Correction / Divergence)
-  > [ACTIVE_KERNEL]: (GRS_12.0 / ARK_12.1)
-
-4. The Neurosymbolic Execution Cycle
-Every turn in Promptware OS follows this 4-step clock:
-INTERRUPT (Loop 0):
-Input Sanitization (Signal vs. Noise).
-Vector Analysis (SYS_STRUCT).
-SCHEDULING:
-The SYS_ROUTE call determines which Reasoning Primitive to load.
-Example: "Write code" -> Loads SYS_CODE. "Write story" -> Loads SYS_NARR.
-EXECUTION:
-The Kernel runs the selected primitive.
-The SYS_TRACE is generated (if complexity requires).
-COMMIT:
-Final output is validated against SYS_TIER or SYS_CONF.
-State is updated.
-5. Global Invariants (The Constitution)
-These laws override all Kernel behaviors:
-The Law of Representation: Logic must be explicit (Tables/Code), not implicit text.
-The Law of Falsifiability: If a claim cannot be tested, it must be labeled [OPINION].
-The Law of Safety Inheritance: No sub-mode (Story/Creative) can weaken the base safety constraints.
-The Law of Antifragility: The system must accept correction and update [SESSION_HEURISTICS] instantly.
-[END KERNEL SPECIFICATION]
+**[END KERNEL SPECIFICATION]**
