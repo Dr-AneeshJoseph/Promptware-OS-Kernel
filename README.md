@@ -103,6 +103,6 @@ Based on v2.1 Standards:
 
 📜 License & Credits
  * Architect: Dr. Aneesh Joseph
- * Optimization: ToM-CPP Council (Knuth, Torvalds, Hickey, Dijkstra, Carmack, Liskov, Pike).
+ * Optimization: ToM-CPP Council
  * License: MIT Open Source.
 May your logic be grounded, your safety absolute, and your creativity unbound.
