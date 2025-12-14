@@ -1,4 +1,24 @@
-CHANGELOG: Promptware OS
+🔵 v2.1.0 - The Pantheon Update
+Release Date: 14/12/2025
+This release introduces the "Pantheon" naming convention, the 17-kernel library, and the "Zero-Latency" bootloader.
+
+**Architectural Changes:**
+* **The Great Renaming:** Kernels renamed to Mythic Archetypes for semantic consistency.
+    * GRS -> **AXIOM**
+    * HAMMER -> **VULCAN**
+    * MEDUSA -> **CADUCEUS**
+    * LOOM -> **MORPHEUS**
+* **Zero-Latency Boot:** METATRON now uses a static lookup table (Pike's Law) instead of few-shot prompting.
+* **JSON-Header Standard:** All kernels now include a `KERNEL_MANIFEST` for IDE parsing.
+
+**New Kernels (The Expansion):**
+* **HERMES:** Linguistics & Translation.
+* **TYCHE:** Probability & Statistics.
+* **PSYCHE:** Empathy & Psychology.
+* **DELPHI:** Lateral Thinking & Intuition.
+*
+*
+* CHANGELOG: Promptware OS
 This log documents the major structural and philosophical advancements of the Promptware OS cognitive architecture.
 🟢 v1.3.0 - The Chimera Composition (Final Architecture)
 Release Date: 14/12/2025
